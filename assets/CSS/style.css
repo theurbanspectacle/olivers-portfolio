@@ -1,16 +1,107 @@
 * {
+    margin: 0;
+    padding: 0;
 
 }
 
-.site_Header_title {
-    font-weight: 200;
-    font-family: "Nueue Montreal", Helvetica;
+body {
+    margin: 0;
+    padding: 0;
 }
-.siteHeader_label{
-    margin-top: 5px;
+
+/* HEADER */
+header {
+    padding: 30px 6% 15px 0;
+    flex-wrap: wrap;
+    align-items: left;
+}
+
+#header-title {
     font-weight: 400;
-}
-#siteHeader {
     font-family: "Nueue Montreal", Helvetica;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#header-caption {
+    font-family: "Nueue Montreal", Helvetica;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+
+#header-title:hover {
+    color: lavenderblush;
+}
+
+#header-caption:hover {
+    color: lavenderblush;
+}
+/*  END OF HEADER  */
+
+.contact-column {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    margin-bottom:40px;
+    line-height: 60px;
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
+
+.content {
+    width: 900px;
+    height: 500px;
+    margin: 40px;
+    padding: 130px;
+    line-height: 30px;
+    background-color: lavender;
+    flex-wrap: wrap;
+    display:inline-block;
+}
+
+.content>h1 {
+    display: center;
+}
+
+.content2 {
+    width: 800px;
+    height: 500px;
+    margin: 40px;
+    padding: 130px;
+    line-height: 30px;
+    background-color: lavender;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content2image {
+    padding: 15px;
+
+}
+
+.content-header {
+    font-size: 70px;
+    margin-bottom:15px;
+}
+
+/* ANCHOR CUSTOMIZATION */
+a {
+    color: black;
+    font-size: 30px;
+    margin-top:15px;
+
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lavenderblush;
+
+}
+/*  END ANCHOR   */
