@@ -11,4 +11,11 @@ N/A
 ## Usage
 
 N/A
----
+
+## Credits
+
+N/A
+
+## License
+
+N/A
